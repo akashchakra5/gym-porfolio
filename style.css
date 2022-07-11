@@ -30,7 +30,11 @@ body {
 
 .join-sec {
     text-align: center;
+}
 
+.join-heding {
+    color: #e02904;
+    font-size: 40px;
 
 }
 
@@ -99,6 +103,7 @@ body {
 .lady-pic {
     width: 60%;
     margin-right: 5%;
+
 }
 
 .lady-pic img {
@@ -111,8 +116,7 @@ body {
 .lady-pic img:hover {
     width: 500px;
     height: 500px;
-    box-shadow: 7px 7px 7px #a8323e;
-
+    box-shadow: 7px 7px 7px #e60b78;
 }
 
 .lady-about {
@@ -141,4 +145,93 @@ body {
     color: #736a6d;
     box-shadow: 7px 7px 7px #736a6d;
 
+}
+
+.reg-div {
+    display: flex;
+    width: 100%;
+}
+
+.form-heading {
+    text-align: center;
+    font-size: 50px;
+    color:
+        #4f14d9;
+}
+
+.form-div {
+    width: 50%;
+    float: 0;
+    margin-left: 7%;
+    padding-top: 40px;
+}
+
+.form {
+    width: 400px;
+    height: 50px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.form:hover {
+    width: 400px;
+    height: 50px;
+
+    box-shadow: 3px 3px 3px #2a23a8;
+}
+
+
+.form:focus {
+    color: darkred;
+}
+
+.form-pic {
+    margin-right: 5%;
+}
+
+.form-pic img {
+    width: 500px;
+    height: 500px;
+    box-shadow: 7px 7px 7px grey;
+}
+
+.form-pic img:hover {
+    width: 500px;
+    height: 500px;
+    box-shadow: 7px 7px 7px rgb(248, 111, 111);
+}
+
+
+.reg-button {
+    padding: 5px 10px;
+    background-image: linear-gradient(#301322,
+            #e81017);
+    font-weight: 900;
+    color: antiquewhite;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.reg-button:hover {
+    padding: 5px 10px;
+    background-image: linear-gradient(#10abe8, #6a848f);
+
+    color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #6a848f;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+.footer-heading {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.small-foot {
+    color: white;
 }
